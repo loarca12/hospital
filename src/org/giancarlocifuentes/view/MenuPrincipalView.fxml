@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="467.0" prefWidth="472.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.giancarlocifuentes.controller.MenuPrincipalController">
+   <children>
+      <ImageView fitHeight="475.0" fitWidth="472.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Portada.jpg" />
+         </image>
+      </ImageView>
+      <MenuBar layoutY="1.0" prefHeight="27.0" prefWidth="349.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Modulos">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Pacientes" />
+                  <MenuItem mnemonicParsing="false" text="Medicos" />
+                  <MenuItem mnemonicParsing="false" text="Especialidades" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Reportes">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Reporte Citas" />
+            </items>
+          </Menu>
+          <Menu mnemonicParsing="false" text="Acerca De">
+            <items>
+              <MenuItem mnemonicParsing="false" text="Programador" />
+            </items>
+          </Menu>
+        </menus>
+      </MenuBar>
+      <ImageView fitHeight="54.0" fitWidth="67.0" layoutX="402.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/red-cross-logo.jpg" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
